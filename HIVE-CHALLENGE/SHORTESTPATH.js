@@ -1,4 +1,4 @@
-function shortestPath(grid) {
+function shortestPathChallenge(grid) {
   const rows = grid.length;
   const cols = grid[0].length;
 
@@ -48,4 +48,4 @@ const grid = [
   [0, 1, 1, 0],
 ];
 
-console.log(shortestPath(grid));
+console.log(shortestPathChallenge(grid));
